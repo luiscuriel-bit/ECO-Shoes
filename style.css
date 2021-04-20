@@ -12,7 +12,7 @@ a:link {
 }
 
 body {
-    background: url("/background-medium.jpg") no-repeat fixed;
+    background: url("background-medium.jpg") no-repeat fixed;
     background-size: cover;
     background-position: center 45%;
 }
@@ -142,7 +142,7 @@ body {
 }
 
 .redes--texto {
-    background: url("/vector-cinta.svg") no-repeat;
+    background: url("vector-cinta.svg") no-repeat;
     display: inline-block;
     width: 440px;
     height: 55px;
