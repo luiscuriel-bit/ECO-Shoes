@@ -1,4 +1,4 @@
-﻿:root {
+﻿﻿:root {
 }
 
 a:visited {
@@ -12,20 +12,20 @@ a:link {
 }
 
 body {
-    background: url("background-medium.jpg") no-repeat fixed;
+    background: url("/background-medium.jpg") no-repeat fixed;
     background-size: cover;
     background-position: center 45%;
 }
 
-body::before{
-    content: '';
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-}
+    body::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
 
 .nav {
     position: fixed;
@@ -135,13 +135,14 @@ body::before{
         line-height: 120px;
     }
 
-.redes{
+.redes {
     position: absolute;
     top: 460px;
     right: 20px;
 }
-.redes--texto{
-    background: url("vector-cinta.svg") no-repeat;
+
+.redes--texto {
+    background: url("/vector-cinta.svg") no-repeat;
     display: inline-block;
     width: 440px;
     height: 55px;
