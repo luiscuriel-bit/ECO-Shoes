@@ -1,0 +1,155 @@
+﻿:root {
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background: url("background-medium.jpg") no-repeat fixed;
+    background-size: cover;
+    background-position: center 45%;
+}
+
+body::before{
+    content: '';
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+.nav__logo {
+    position: absolute;
+    top: 7px;
+    left: 40px;
+    height: 58px;
+}
+
+.nav__enlaces {
+    float: right;
+    margin: 0 20px 0 0;
+    padding: 0;
+    font-family: 'Ropa Sans', Arial;
+    font-weight: normal;
+    font-size: 2em;
+    color: #FFF;
+}
+
+.nav__enlace {
+    float: left;
+    padding: 16px;
+    list-style: none;
+}
+
+.nav__enlace-actual {
+    background-color: #5F060A;
+}
+
+.main {
+}
+
+#contenedor-formulario {
+    width: 490px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 52px;
+}
+
+.main__h2 {
+    font-family: 'Ropa Sans', Arial;
+    font-size: 3.5em;
+    font-weight: normal;
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.form {
+}
+
+.form__input {
+    width: 480px;
+    height: 30px;
+    padding: 2px;
+    margin: 0 0 15px 0;
+    border: 3px solid #001790;
+}
+
+.form__input--text::placeholder {
+    font-family: 'Ropa Sans', Arial;
+    font-size: 1.5em;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 30px;
+}
+
+.form__input--submit {
+    width: 490px;
+    height: 50px;
+    font-family: 'Ropa Sans', Arial;
+    font-size: 1.75em;
+    font-weight: normal;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    background: linear-gradient(#000, #04125A);
+    border-radius: 50px;
+}
+
+.form__textarea {
+    width: 480px;
+    height: 120px;
+    margin: 0 0 15px 0;
+    padding: 2px;
+    border: 3px solid #001790;
+}
+
+    .form__textarea::placeholder {
+        font-family: 'Ropa Sans', Arial;
+        font-size: 1.5em;
+        font-weight: normal;
+        color: rgba(0, 0, 0, 0.5);
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 120px;
+    }
+
+.redes{
+    position: absolute;
+    top: 460px;
+    right: 20px;
+}
+.redes--texto{
+    background: url("vector-cinta.svg") no-repeat;
+    display: inline-block;
+    width: 440px;
+    height: 55px;
+    float: right;
+    text-align: center;
+    line-height: 55px;
+    font: normal 3em 'Ropa Sans', Arial;
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+}
